@@ -10,7 +10,7 @@
  */
 function isArrayLengthOdd(numbers) {
   // Your code here
-    return (numbers.length % 2 === 1);
+    return (numbers.length % 2 == 1);
   }
 
 /**
@@ -25,7 +25,7 @@ function isArrayLengthOdd(numbers) {
  */
 function isArrayLengthEven(numbers) {
   // Your code here
-  return (numbers.length % 2 === 0);
+  return (numbers.length % 2 == 0);
 }
 
 /**
